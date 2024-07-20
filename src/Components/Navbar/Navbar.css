@@ -35,10 +35,14 @@
     margin: 0 15px;
     cursor: pointer;
     font-size: 18px;
+    position: relative;
+    transition: font-size 0.2s, 
+   
 }
 
 .nav-menu li:hover {
-    text-decoration: underline;
+    font-size: 20px;
+    
 }
 
 .nav-login-cart {

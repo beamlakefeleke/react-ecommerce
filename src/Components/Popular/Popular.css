@@ -1,0 +1,30 @@
+/* General Styles for the Popular Section */
+.popular {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.popular hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 20px 0;
+  align-items: center;
+}
+
+.popular h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+  }
+
+.popular-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust spacing between items */
+  justify-content: center;
+}
+
+
+
