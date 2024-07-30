@@ -1,0 +1,76 @@
+.newsletter {
+    background: #24243e;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.newsletter h1 {
+    font-size: 2.5em;
+    font-family: 'Roboto', sans-serif; /* Modern font */
+    color: #00d4ff; /* Bright cyan color for the headline */
+    margin-bottom: 10px;
+    text-shadow: 0 4px 6px rgba(0, 212, 255, 0.4); /* Glowing text effect */
+}
+
+.newsletter p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif; /* Consistent font style */
+    color: #ddd; /* Lighter text color for the subtitle */
+    margin-bottom: 20px;
+}
+
+.newsletter input[type="email"] {
+    width: calc(30%); /* Full width minus button width */
+    padding: 12px;
+    border: 2px solid #00d4ff; /* Border with bright cyan color */
+    border-radius: 8px; /* Rounded corners for the input */
+    font-size: 1em;
+    background: #333; /* Dark background for input */
+    color: #fff; /* White text color for input */
+    margin-right: 10px; /* Space between input and button */
+    box-sizing: border-box; /* Include padding in width calculation */
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Smooth transition for input focus */
+}
+
+.newsletter input[type="email"]:focus {
+    border-color: #00d4ff; /* Bright cyan border on focus */
+    background: #222; /* Darker background on focus */
+}
+
+.newsletter button {
+    background: linear-gradient(135deg, #ff6b6b, #ff3b3b); /* Gradient button color */
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.1em;
+    border-radius: 8px; /* Rounded corners for button */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+    box-shadow: 0 4px 8px rgba(255, 107, 107, 0.3); /* Soft shadow for button */
+    margin: 20px;
+}
+
+.newsletter button:hover {
+    background: linear-gradient(135deg, #ff3b3b, #ff6b6b); /* Reversed gradient on hover */
+    transform: scale(1.05); /* Slight scale effect on hover */
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.4); /* Slightly deeper shadow on hover */
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: #00d4ff; /* Cyan color for icons */
+    margin: 0 10px;
+    font-size: 1.5em; /* Larger icons */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+}
+
+.social-media a:hover {
+    color: #ff6b6b; /* Change color on hover */
+    transform: scale(1.2); /* Slight scale effect on hover */
+}

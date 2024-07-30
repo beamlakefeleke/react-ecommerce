@@ -1,0 +1,77 @@
+/* Offers.css */
+.Offers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    padding: 40px;
+
+
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.Offers::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    pointer-events: none;
+    mix-blend-mode: overlay;
+}
+
+.offers_left {
+    max-width: 50%;
+    z-index: 1;
+}
+
+.offers_left h1 {
+    font-size: 3em;
+    margin: 0;
+    color: #00d4ff;
+    text-shadow: 0 0 10px rgba(0, 212, 255, 0.8);
+}
+
+.offers_left p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin: 20px 0;
+}
+
+.offers_left button {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+}
+
+.offers_left button:hover {
+    background-color: #ff3b3b;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(255, 107, 107, 0.5);
+}
+
+.offers_right {
+    max-width: 50%;
+    z-index: 1;
+}
+
+.offers_right img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.offers_right img:hover {
+    transform: scale(1.05);
+}
